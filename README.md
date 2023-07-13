@@ -53,7 +53,7 @@ The logical statements to be fulfilled in order to result a non-zero value (if a
 <br>
 
 This computation provides us a final answer which excludes four stocks of the Dow Jones Index from our Max Diversification Portfolio: 3M, Boeing, Caterpillar and Chevron. Our Max Diversification is therefore computed as the division between the sum of the weighted volatilities and the squared root of the volatilities weighted with the covariance matrix.<br>
-$Max\ Diversification=\frac{\Sigma\omega_i\sigma_i}{\sqrt{\Sigma\omega_i\omega_j\sigma_i}}=\frac{1.4239%}{0.8170%}=174.27%$
+$Max\ Diversification=\frac{\Sigma\omega_i\sigma_i}{\sqrt{\Sigma\omega_i\omega_j\sigma_i}}=\frac{1.4239%}{0.8170%}=174.27% $
 <br>
 Our Max Diversification approach delivers an important result deemed important for the risk-return attributes we chose to propose. In fact, as the name suggests, the weight assigned to each company in the index has been computed to force out the maximum possible diversification among those companies; this, as explained above, is constrained by the ESG Risk Rating. The sector concentration (computed with a SUMIF formula) shows a 49.78% condensation of the three biggest sectors, thus leaving ample margins of investment in the remaining 12 sectors.
 <br><br>
